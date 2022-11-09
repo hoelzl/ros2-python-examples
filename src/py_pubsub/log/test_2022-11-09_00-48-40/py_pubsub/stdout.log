@@ -1,0 +1,59 @@
+[1m============================= test session starts ==============================[0m
+platform linux -- Python 3.10.6, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+cachedir: build/py_pubsub/.pytest_cache
+rootdir: /home/tc/Programming/python/courses/own/python-courses/python-private/examples/Ros2/src/py_pubsub
+plugins: ament-lint-0.12.4, ament-xmllint-0.12.4, launch-testing-1.0.3, launch-testing-ros-0.19.3, ament-copyright-0.12.4, ament-pep257-0.12.4, ament-flake8-0.12.4, cov-3.0.0, colcon-core-0.10.0
+[1mcollecting ... [0m[1m
+collected 3 items                                                              [0m
+
+test/test_copyright.py [33ms[0m[32m                                                 [ 33%][0m
+test/test_flake8.py [31mF[0m[31m                                                    [ 66%][0m
+test/test_pep257.py [32m.[0m[31m                                                    [100%][0m
+
+=================================== FAILURES ===================================
+[31m[1m_________________________________ test_flake8 __________________________________[0m
+[1m[31mtest/test_flake8.py[0m:23: in test_flake8
+    [94massert[39;49;00m rc == [94m0[39;49;00m, \
+[1m[31mE   AssertionError: Found 3 code style errors / warnings:[0m
+[1m[31mE     ./install/_local_setup_util_sh.py:14:100: E501 line too long (109 > 99 characters)[0m
+[1m[31mE     ./install/_local_setup_util_sh.py:15:100: E501 line too long (124 > 99 characters)[0m
+[1m[31mE     ./install/_local_setup_util_sh.py:16:100: E501 line too long (125 > 99 characters)[0m
+[1m[31mE   assert 1 == 0[0m
+----------------------------- Captured stdout call -----------------------------
+
+./install/_local_setup_util_sh.py:14:100: E501 line too long (109 > 99 characters)
+FORMAT_STR_INVOKE_SCRIPT = 'COLCON_CURRENT_PREFIX="{prefix}" _colcon_prefix_sh_source_script "{script_path}"'
+                                                                                                   ^
+
+./install/_local_setup_util_sh.py:15:100: E501 line too long (124 > 99 characters)
+FORMAT_STR_REMOVE_LEADING_SEPARATOR = 'if [ "$(echo -n ${name} | head -c 1)" = ":" ]; then export {name}=${{{name}#?}} ; fi'
+                                                                                                   ^
+
+./install/_local_setup_util_sh.py:16:100: E501 line too long (125 > 99 characters)
+FORMAT_STR_REMOVE_TRAILING_SEPARATOR = 'if [ "$(echo -n ${name} | tail -c 1)" = ":" ]; then export {name}=${{{name}%?}} ; fi'
+                                                                                                   ^
+
+3     E501 line too long (109 > 99 characters)
+
+9 files checked
+3 errors
+
+'E'-type errors: 3
+
+Checked files:
+
+* ./setup.py
+* ./build/py_pubsub/build/lib/py_pubsub/__init__.py
+* ./py_pubsub/__init__.py
+* ./test/test_flake8.py
+* ./test/test_copyright.py
+* ./test/test_pep257.py
+* ./install/_local_setup_util_ps1.py
+* ./install/_local_setup_util_sh.py
+* ./install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py
+----------------------------- Captured stderr call -----------------------------
+option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+- generated xml file: /home/tc/Programming/python/courses/own/python-courses/python-private/examples/Ros2/src/py_pubsub/build/py_pubsub/pytest.xml -
+=========================== short test summary info ============================
+FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 3 code style ...
+[31m============== [31m[1m1 failed[0m, [32m1 passed[0m, [33m1 skipped[0m, [33m2 warnings[0m[31m in 1.16s[0m[31m ==============[0m

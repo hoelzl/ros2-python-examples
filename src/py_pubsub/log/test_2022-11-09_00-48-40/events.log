@@ -1,0 +1,89 @@
+[0.000000] (-) TimerEvent: {}
+[0.000434] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict([('py_pubsub', '/home/tc/Programming/python/courses/own/python-courses/python-private/examples/Ros2/src/py_pubsub/install/py_pubsub')])}
+[0.000714] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.099034] (-) TimerEvent: {}
+[0.199237] (-) TimerEvent: {}
+[0.207032] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', '-m', 'pytest'], 'cwd': '/home/tc/Programming/python/courses/own/python-courses/python-private/examples/Ros2/src/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tc', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/tc/Programming/ros2/workspaces/tutorial/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/tc', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/tc/Programming/python/courses/own/python-courses/python-private/examples/Ros2/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'SYSTEMD_EXEC_PID': '41117', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'COLCON_PREFIX_PATH': '/home/tc/Programming/ros2/workspaces/tutorial/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'tc', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'tc', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'DOTNET_ROOT': '/usr/lib/dotnet/dotnet6-6.0.110', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '1', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/tc/Programming/python/mambaforge/condabin:/home/tc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/tc/.dotnet/tools', 'SESSION_MANAGER': 'local/cheetah:@/tmp/.ICE-unix/6395,unix/cheetah:/tmp/.ICE-unix/6395', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f4be9027_8820_4100_9dbe_cfc9930cbe42', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'DOTNET_BUNDLE_EXTRACT_BASE_DIR': '/home/tc/.cache/dotnet_bundle_extract', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.231', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '98', 'AMENT_PREFIX_PATH': '/home/tc/Programming/python/courses/own/python-courses/python-private/examples/Ros2/src/py_pubsub/install/py_pubsub:/home/tc/Programming/ros2/workspaces/tutorial/install/turtlesim:/home/tc/Programming/ros2/workspaces/tutorial/install/my_package:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/tc/Programming/python/mambaforge/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tc/Programming/python/courses/own/python-courses/python-private/examples/Ros2/src/py_pubsub/build/py_pubsub', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/tc/Programming/python/mambaforge/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/tc/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tc/Programming/python/courses/own/python-courses/python-private/examples/Ros2/src/py_pubsub/install/py_pubsub/lib/python3.10/site-packages:/home/tc/Programming/ros2/workspaces/tutorial/install/turtlesim/local/lib/python3.10/dist-packages:/home/tc/Programming/ros2/workspaces/tutorial/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/tc/Programming/ros2/workspaces/tutorial/install/turtlesim', 'PYTEST_ADDOPTS': '--tb=short --junit-xml=/home/tc/Programming/python/courses/own/python-courses/python-private/examples/Ros2/src/py_pubsub/build/py_pubsub/pytest.xml --junit-prefix=py_pubsub -o cache_dir=/home/tc/Programming/python/courses/own/python-courses/python-private/examples/Ros2/src/py_pubsub/build/py_pubsub/.pytest_cache'}, 'shell': False}
+[0.299349] (-) TimerEvent: {}
+[0.399569] (-) TimerEvent: {}
+[0.403404] (py_pubsub) StdoutLine: {'line': b'\x1b[1m============================= test session starts ==============================\x1b[0m\n'}
+[0.403570] (py_pubsub) StdoutLine: {'line': b'platform linux -- Python 3.10.6, pytest-6.2.5, py-1.10.0, pluggy-0.13.0\n'}
+[0.406525] (py_pubsub) StdoutLine: {'line': b'cachedir: build/py_pubsub/.pytest_cache\n'}
+[0.406662] (py_pubsub) StdoutLine: {'line': b'rootdir: /home/tc/Programming/python/courses/own/python-courses/python-private/examples/Ros2/src/py_pubsub\n'}
+[0.406758] (py_pubsub) StdoutLine: {'line': b'plugins: ament-lint-0.12.4, ament-xmllint-0.12.4, launch-testing-1.0.3, launch-testing-ros-0.19.3, ament-copyright-0.12.4, ament-pep257-0.12.4, ament-flake8-0.12.4, cov-3.0.0, colcon-core-0.10.0\n'}
+[0.475397] (py_pubsub) StdoutLine: {'line': b'\x1b[1mcollecting ... \x1b[0m\x1b[1m\n'}
+[0.475539] (py_pubsub) StdoutLine: {'line': b'collected 3 items                                                              \x1b[0m\n'}
+[0.475705] (py_pubsub) StdoutLine: {'line': b'\n'}
+[0.480110] (py_pubsub) StdoutLine: {'line': b'test/test_copyright.py \x1b[33ms\x1b[0m\x1b[32m                                                 [ 33%]\x1b[0m\n'}
+[0.499667] (-) TimerEvent: {}
+[0.599878] (-) TimerEvent: {}
+[0.700138] (-) TimerEvent: {}
+[0.800453] (-) TimerEvent: {}
+[0.803890] (py_pubsub) StdoutLine: {'line': b'test/test_flake8.py \x1b[31mF\x1b[0m\x1b[31m                                                    [ 66%]\x1b[0m\n'}
+[0.860232] (py_pubsub) StdoutLine: {'line': b'test/test_pep257.py \x1b[32m.\x1b[0m\x1b[31m                                                    [100%]\x1b[0m\n'}
+[0.860389] (py_pubsub) StdoutLine: {'line': b'\n'}
+[0.860476] (py_pubsub) StdoutLine: {'line': b'=================================== FAILURES ===================================\n'}
+[0.860578] (py_pubsub) StdoutLine: {'line': b'\x1b[31m\x1b[1m_________________________________ test_flake8 __________________________________\x1b[0m\n'}
+[0.860664] (py_pubsub) StdoutLine: {'line': b'\x1b[1m\x1b[31mtest/test_flake8.py\x1b[0m:23: in test_flake8\n'}
+[0.900514] (-) TimerEvent: {}
+[1.000677] (-) TimerEvent: {}
+[1.100877] (-) TimerEvent: {}
+[1.201088] (-) TimerEvent: {}
+[1.301297] (-) TimerEvent: {}
+[1.401505] (-) TimerEvent: {}
+[1.501710] (-) TimerEvent: {}
+[1.562598] (py_pubsub) StdoutLine: {'line': b'    \x1b[94massert\x1b[39;49;00m rc == \x1b[94m0\x1b[39;49;00m, \\\n'}
+[1.562855] (py_pubsub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   AssertionError: Found 3 code style errors / warnings:\x1b[0m\n'}
+[1.562966] (py_pubsub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./install/_local_setup_util_sh.py:14:100: E501 line too long (109 > 99 characters)\x1b[0m\n'}
+[1.563060] (py_pubsub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./install/_local_setup_util_sh.py:15:100: E501 line too long (124 > 99 characters)\x1b[0m\n'}
+[1.563151] (py_pubsub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./install/_local_setup_util_sh.py:16:100: E501 line too long (125 > 99 characters)\x1b[0m\n'}
+[1.563241] (py_pubsub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   assert 1 == 0\x1b[0m\n'}
+[1.563381] (py_pubsub) StdoutLine: {'line': b'----------------------------- Captured stdout call -----------------------------\n'}
+[1.563474] (py_pubsub) StdoutLine: {'line': b'\n'}
+[1.563563] (py_pubsub) StdoutLine: {'line': b'./install/_local_setup_util_sh.py:14:100: E501 line too long (109 > 99 characters)\n'}
+[1.563651] (py_pubsub) StdoutLine: {'line': b'FORMAT_STR_INVOKE_SCRIPT = \'COLCON_CURRENT_PREFIX="{prefix}" _colcon_prefix_sh_source_script "{script_path}"\'\n'}
+[1.563749] (py_pubsub) StdoutLine: {'line': b'                                                                                                   ^\n'}
+[1.563853] (py_pubsub) StdoutLine: {'line': b'\n'}
+[1.564050] (py_pubsub) StdoutLine: {'line': b'./install/_local_setup_util_sh.py:15:100: E501 line too long (124 > 99 characters)\n'}
+[1.564134] (py_pubsub) StdoutLine: {'line': b'FORMAT_STR_REMOVE_LEADING_SEPARATOR = \'if [ "$(echo -n ${name} | head -c 1)" = ":" ]; then export {name}=${{{name}#?}} ; fi\'\n'}
+[1.564219] (py_pubsub) StdoutLine: {'line': b'                                                                                                   ^\n'}
+[1.564302] (py_pubsub) StdoutLine: {'line': b'\n'}
+[1.564384] (py_pubsub) StdoutLine: {'line': b'./install/_local_setup_util_sh.py:16:100: E501 line too long (125 > 99 characters)\n'}
+[1.564471] (py_pubsub) StdoutLine: {'line': b'FORMAT_STR_REMOVE_TRAILING_SEPARATOR = \'if [ "$(echo -n ${name} | tail -c 1)" = ":" ]; then export {name}=${{{name}%?}} ; fi\'\n'}
+[1.564554] (py_pubsub) StdoutLine: {'line': b'                                                                                                   ^\n'}
+[1.564636] (py_pubsub) StdoutLine: {'line': b'\n'}
+[1.564719] (py_pubsub) StdoutLine: {'line': b'3     E501 line too long (109 > 99 characters)\n'}
+[1.564801] (py_pubsub) StdoutLine: {'line': b'\n'}
+[1.564902] (py_pubsub) StdoutLine: {'line': b'9 files checked\n'}
+[1.564985] (py_pubsub) StdoutLine: {'line': b'3 errors\n'}
+[1.565067] (py_pubsub) StdoutLine: {'line': b'\n'}
+[1.565147] (py_pubsub) StdoutLine: {'line': b"'E'-type errors: 3\n"}
+[1.565228] (py_pubsub) StdoutLine: {'line': b'\n'}
+[1.565308] (py_pubsub) StdoutLine: {'line': b'Checked files:\n'}
+[1.565389] (py_pubsub) StdoutLine: {'line': b'\n'}
+[1.565469] (py_pubsub) StdoutLine: {'line': b'* ./setup.py\n'}
+[1.565549] (py_pubsub) StdoutLine: {'line': b'* ./build/py_pubsub/build/lib/py_pubsub/__init__.py\n'}
+[1.565631] (py_pubsub) StdoutLine: {'line': b'* ./py_pubsub/__init__.py\n'}
+[1.565711] (py_pubsub) StdoutLine: {'line': b'* ./test/test_flake8.py\n'}
+[1.565795] (py_pubsub) StdoutLine: {'line': b'* ./test/test_copyright.py\n'}
+[1.565898] (py_pubsub) StdoutLine: {'line': b'* ./test/test_pep257.py\n'}
+[1.565982] (py_pubsub) StdoutLine: {'line': b'* ./install/_local_setup_util_ps1.py\n'}
+[1.566078] (py_pubsub) StdoutLine: {'line': b'* ./install/_local_setup_util_sh.py\n'}
+[1.566160] (py_pubsub) StdoutLine: {'line': b'* ./install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py\n'}
+[1.566242] (py_pubsub) StdoutLine: {'line': b'----------------------------- Captured stderr call -----------------------------\n'}
+[1.566325] (py_pubsub) StdoutLine: {'line': b'option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future\n'}
+[1.566410] (py_pubsub) StdoutLine: {'line': b'- generated xml file: /home/tc/Programming/python/courses/own/python-courses/python-private/examples/Ros2/src/py_pubsub/build/py_pubsub/pytest.xml -\n'}
+[1.566494] (py_pubsub) StdoutLine: {'line': b'=========================== short test summary info ============================\n'}
+[1.566576] (py_pubsub) StdoutLine: {'line': b'FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 3 code style ...\n'}
+[1.566658] (py_pubsub) StdoutLine: {'line': b'\x1b[31m============== \x1b[31m\x1b[1m1 failed\x1b[0m, \x1b[32m1 passed\x1b[0m, \x1b[33m1 skipped\x1b[0m, \x1b[33m2 warnings\x1b[0m\x1b[31m in 1.16s\x1b[0m\x1b[31m ==============\x1b[0m\n'}
+[1.566743] (py_pubsub) StderrLine: {'line': b'\x1b[33m=============================== warnings summary ===============================\x1b[0m\n'}
+[1.566854] (py_pubsub) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[1.566942] (py_pubsub) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[1.567023] (py_pubsub) StderrLine: {'line': b'  Warning: SelectableGroups dict interface is deprecated. Use select.\n'}
+[1.567105] (py_pubsub) StderrLine: {'line': b'\n'}
+[1.567188] (py_pubsub) StderrLine: {'line': b'-- Docs: https://docs.pytest.org/en/stable/warnings.html\n'}
+[1.601807] (-) TimerEvent: {}
+[1.632732] (py_pubsub) CommandEnded: {'returncode': 1}
+[1.633421] (py_pubsub) TestFailure: {'identifier': 'py_pubsub'}
+[1.633521] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[1.634153] (-) EventReactorShutdown: {}

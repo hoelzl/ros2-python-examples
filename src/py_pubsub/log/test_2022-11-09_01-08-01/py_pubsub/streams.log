@@ -1,0 +1,15 @@
+[0.203s] Invoking command in '/home/tc/Programming/python/courses/own/ros2-python-examples/src/py_pubsub': AMENT_PREFIX_PATH=/home/tc/Programming/python/courses/own/ros2-python-examples/src/py_pubsub/install/py_pubsub:${AMENT_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(cam) PYTEST_ADDOPTS=--tb=short --junit-xml=/home/tc/Programming/python/courses/own/ros2-python-examples/src/py_pubsub/build/py_pubsub/pytest.xml --junit-prefix=py_pubsub -o cache_dir=/home/tc/Programming/python/courses/own/ros2-python-examples/src/py_pubsub/build/py_pubsub/.pytest_cache PYTHONPATH=/home/tc/Programming/python/courses/own/ros2-python-examples/src/py_pubsub/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[0.392s] [1m============================= test session starts ==============================[0m
+[0.392s] platform linux -- Python 3.10.6, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[0.395s] cachedir: build/py_pubsub/.pytest_cache
+[0.395s] rootdir: /home/tc/Programming/python/courses/own/ros2-python-examples/src/py_pubsub
+[0.395s] plugins: ament-lint-0.12.4, ament-xmllint-0.12.4, launch-testing-1.0.3, launch-testing-ros-0.19.3, ament-copyright-0.12.4, ament-pep257-0.12.4, ament-flake8-0.12.4, cov-3.0.0, colcon-core-0.10.0
+[0.464s] [1mcollecting ... [0m[1m
+[0.464s] collected 2 items                                                              [0m
+[0.465s] 
+[0.469s] test/test_copyright.py [33ms[0m[32m                                                 [ 50%][0m
+[0.526s] test/test_pep257.py [32m.[0m[32m                                                    [100%][0m
+[0.526s] 
+[0.526s] - generated xml file: /home/tc/Programming/python/courses/own/ros2-python-examples/src/py_pubsub/build/py_pubsub/pytest.xml -
+[0.526s] [32m========================= [32m[1m1 passed[0m, [33m1 skipped[0m[32m in 0.13s[0m[32m =========================[0m
+[0.573s] Invoked command in '/home/tc/Programming/python/courses/own/ros2-python-examples/src/py_pubsub' returned '0': AMENT_PREFIX_PATH=/home/tc/Programming/python/courses/own/ros2-python-examples/src/py_pubsub/install/py_pubsub:${AMENT_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(cam) PYTEST_ADDOPTS=--tb=short --junit-xml=/home/tc/Programming/python/courses/own/ros2-python-examples/src/py_pubsub/build/py_pubsub/pytest.xml --junit-prefix=py_pubsub -o cache_dir=/home/tc/Programming/python/courses/own/ros2-python-examples/src/py_pubsub/build/py_pubsub/.pytest_cache PYTHONPATH=/home/tc/Programming/python/courses/own/ros2-python-examples/src/py_pubsub/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
