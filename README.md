@@ -3,6 +3,9 @@
 These programs are slightly modified versions of the examples
 from the [Ros2 documentation](https://docs.ros.org/en/humble/Tutorials.html).
 
+
+## Building the Ros2 packages
+
 From the root directory of the package (in which this file lives), run
 
 ```shell
@@ -10,17 +13,24 @@ $ rosdep install -i --from-path src --rosdistro humble -y
 rosdep install -i --from-path src --rosdistro humble -y
 $ colcon build
 Starting >>> py_pubsub
-Finished <<< py_pubsub [0.69s]
+Starting >>> py_srvcli
+Finished <<< py_srvcli [0.90s]
+Finished <<< py_pubsub [0.92s]
+
+Summary: 2 packages finished [1.05s]
 ```
 
-Currently there is a warning during the build if you have a relatively new
+Currently there are warnings during the build if you have a relatively new
 Python version.
 
 It would be necessary to fully convert the build system to setup.cfg format to
 change this, but I don't know whether this would break anything with Ros2 and
 currently don't have the time to figure it out.
 
-Then *in a new terminal* enter the following:
+
+## Running the Pub/Sub Example
+
+*In a new terminal* enter the following:
 
 ```shell
 $ . install/setup.bash
@@ -38,5 +48,20 @@ $ ros2 run py_pubsub listener
 [INFO] [1667954078.045673482] [minimal_subscriber]: I heard: "Hello World: 9"
 [INFO] [1667954078.538445915] [minimal_subscriber]: I heard: "Hello World: 10"
 [INFO] [1667954079.038688179] [minimal_subscriber]: I heard: "Hello World: 11"
+```
+
+## Running the Client/Server example
+
+*In a new terminal* enter the following:
+
+```shell
+$ . install/setup.bash
+$ ros2 run py_srvcli server
+```
+
+```shell
+$ . install/setup.bash
+$ run py_srvcli client 2 3
+[INFO] [1667955235.127477298] [minimal_client_async]: Result of add_two_ints: for 2 + 3 = 5
 ```
 
