@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = "py_pubsub"
+package_name = "simple_pubsub"
 
 setup(
     name=package_name,
@@ -19,8 +19,8 @@ setup(
     tests_require=["pytest"],
     entry_points={
         "console_scripts": [
-            "talker = py_pubsub.publisher:main",
-            "listener = py_pubsub.subscriber:main",
+            "talker = simple_pubsub.publisher:main",
+            "listener = simple_pubsub.subscriber:main",
         ],
     },
 )

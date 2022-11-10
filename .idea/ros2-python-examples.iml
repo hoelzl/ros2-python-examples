@@ -2,15 +2,18 @@
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/src/py_pubsub" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/py_srvcli" isTestSource="false" />
-      <excludeFolder url="file://$MODULE_DIR$/src/py_pubsub/build" />
-      <excludeFolder url="file://$MODULE_DIR$/src/py_pubsub/install" />
-      <excludeFolder url="file://$MODULE_DIR$/src/py_pubsub/log" />
-      <excludeFolder url="file://$MODULE_DIR$/src/py_pubsub/resource" />
-      <excludeFolder url="file://$MODULE_DIR$/src/py_srvcli/resource" />
+      <sourceFolder url="file://$MODULE_DIR$/external-projects/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros2-workspace/src/simple_client_server" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros2-workspace/src/simple_pubsub" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/external-projects/.pytest_cache" />
+      <excludeFolder url="file://$MODULE_DIR$/ros2-workspace/.pytest_cache" />
+      <excludeFolder url="file://$MODULE_DIR$/ros2-workspace/build" />
+      <excludeFolder url="file://$MODULE_DIR$/ros2-workspace/install" />
+      <excludeFolder url="file://$MODULE_DIR$/ros2-workspace/log" />
+      <excludeFolder url="file://$MODULE_DIR$/external-projects/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/external-projects/src/ros_core_functions.egg-info" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.10" jdkType="Python SDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TestRunnerService">

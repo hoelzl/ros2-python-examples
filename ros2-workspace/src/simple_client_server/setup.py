@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = "py_srvcli"
+package_name = "simple_client_server"
 
 setup(
     name=package_name,
@@ -19,8 +19,8 @@ setup(
     tests_require=["pytest"],
     entry_points={
         "console_scripts": [
-            "client = py_srvcli.client:main",
-            "server = py_srvcli.service:main",
+            "client = simple_client_server.client:main",
+            "server = simple_client_server.service:main",
         ],
     },
 )
